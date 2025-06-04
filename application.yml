@@ -3,6 +3,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+
+words: NA
+
 ---
 spring:
   config:
@@ -56,3 +61,5 @@ spring:
   application:
     name: lab-4-sentence
 words: NotApplicable
+server:
+  port: 8020
