@@ -37,3 +37,10 @@ spring:
     activate:
       on-profile: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
+
+--
+spring:
+  config:
+    activate:
+      on-profile: sentence
+words: NotApplicable
