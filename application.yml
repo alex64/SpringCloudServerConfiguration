@@ -16,7 +16,7 @@ spring:
     activate:
       on-profile: subject
   application:
-    name: lab-4-subject
+    name: subject
 words: I,You,He,She,It
 
 ---
@@ -25,7 +25,7 @@ spring:
     activate:
       on-profile: verb
   application:
-    name: lab-4-verb
+    name: verb
 words: ran,knew,had,saw,bought
 
 ---
@@ -34,7 +34,7 @@ spring:
     activate:
       on-profile: article
   application:
-    name: lab-4-article
+    name: article
 words: a,the
 
 ---
@@ -43,7 +43,7 @@ spring:
     activate:
       on-profile: adjective
   application:
-    name: lab-4-adjective
+    name: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
@@ -52,7 +52,7 @@ spring:
     activate:
       on-profile: noun
   application:
-    name: lab-4-noun
+    name: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
@@ -61,7 +61,7 @@ spring:
     activate:
       on-profile: sentence
   application:
-    name: lab-4-sentence
+    name: sentence
 words: NotApplicable
 server:
   port: 8020
@@ -72,5 +72,5 @@ spring:
     activate:
       on-profile: cold-noun
   application:
-    name: lab-4-noun
+    name: noun
 words: icicle,refrigerator,blizzard,snowball
