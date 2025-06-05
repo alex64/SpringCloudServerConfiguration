@@ -72,5 +72,5 @@ spring:
     activate:
       on-profile: cold-noun
   application:
-    name: noun
+    name: lab-4-noun
 words: icicle,refrigerator,blizzard,snowball
