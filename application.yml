@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
   instance: 
-    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id}:${random.value}
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 server:
   port: ${PORT:${SERVER_PORT:0}}
@@ -70,7 +70,7 @@ server:
 spring:
   config:
     activate:
-      on-profile: clod-noun
+      on-profile: cold-noun
   application:
     name: noun
 words: icicle,refrigerator,blizzard,snowball
